@@ -280,6 +280,16 @@ after execution of this command role will be created
 
 To assign the role to service account
 
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/d09885fb-e290-4c61-96f4-170da68feb5b)
+
+To create a token for service account use below yaml file
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/2796401c-6fc7-494b-9ddc-17b67186ee80)
+
+
+
+
+
 
 
 
