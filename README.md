@@ -97,6 +97,18 @@ Command to install eksctl
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/8ba11cd7-7cf2-4bbb-b366-6946becbb40d)
 
 
+Creation of EKS Cluster
+
+eksctl create cluster --name=my-eks924 \
+                      --region=ap-south-1 \
+                      --zones=ap-south-1a,ap-south-1b \
+                      --version=1.30 \
+                      --without-nodegroup
+
+
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/8d29171d-c89e-40eb-a181-19facdd34a3a)
+
 
 
 
