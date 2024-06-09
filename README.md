@@ -212,9 +212,6 @@ Go to **Manage Jenkins**
 
 Click on **Tools**
 
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/ac8543a0-43ff-46d0-9cb8-ed709b976c69)
-
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/89de3cc7-9b21-4bda-949d-05a3adaed0c4)
 
 Click on **Apply**
 
