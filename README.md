@@ -178,9 +178,11 @@ After execution of EKS Cluster command
 
 To setup worker node
 
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/480eccc4-4523-473f-affe-fc4937cf8f32)
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/86429c03-ab6a-4bd6-a187-7b9cb9848f29)
 
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/7ea88376-f470-41fb-9ebf-b3bd714a8988)
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/0370218a-6a6d-4bbb-9615-9af8a116f2a9)
+
 
 Meanwhhile we will manage jenkins
 
