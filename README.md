@@ -174,6 +174,17 @@ sonarqube credentials
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/1504417b-6bec-4e60-a323-b902809979ab)
 
 
+After execution of EKS Cluster command
+
+To setup worker node
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/480eccc4-4523-473f-affe-fc4937cf8f32)
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/7ea88376-f470-41fb-9ebf-b3bd714a8988)
+
+
+
+
 
 
 
