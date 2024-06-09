@@ -1,16 +1,5 @@
 
 
-
-To check the status of worker node
-
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/92480573-56e2-403a-a5f9-01787fc738d9)
-
-Open the EKS in AWS -
-
-Click on **Cluster name** -> security -> inbound rules
-
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/e1a5ace8-fc08-4ed0-8bc1-7db65261d70c)
-
 To check namespace
 
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/6e994428-42e2-4232-9eb6-088447054c32)
