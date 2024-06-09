@@ -87,6 +87,18 @@ To check it is configure or not
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/7c54d45f-74ef-47c3-a84a-fe69aae89ac2)
 
 
+Command to install kubectl
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/1a8c6dc7-3337-4c82-9212-407ec2d3fb13)
+
+
+Command to install eksctl
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/8ba11cd7-7cf2-4bbb-b366-6946becbb40d)
+
+
+
+
 
 
 
