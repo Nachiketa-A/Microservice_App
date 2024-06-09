@@ -101,6 +101,7 @@ To set up an EKS (Amazon Elastic Kubernetes Service) account without using the r
      - `AWSCloudFormationFullAccess`
      - `IAMFullAccess`
      - `EKSPolicy`
+![Policies](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/e51ae215-72c6-4d61-b5d6-2c925c454053)
 
 9. **Sign in with the New User**
    - Provide the new user with their sign-in URL, username, and password.
