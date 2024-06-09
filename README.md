@@ -134,6 +134,11 @@ To get the password of jenkins use below command
 
 One pop up is coming click on **Install sugested Plugin**
 
+Credentials of jenkins
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/ff770f0f-26b0-4092-a309-ebfed77323da)
+
+
 **installation of sonarqube**
 
 installation of docker
@@ -155,6 +160,25 @@ Command to set up sonarqube
 eg: 9000:9001 (9000 is a host port ; 9001 is  container port)
 
 lts: latest versuion of sonarqube image
+
+command to check container is created or not
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/a68323ee-f4e7-4630-9064-11a3cb08b7bc)
+
+To access sonarqube copy te public ip address and open it on port 9000
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/2733db19-184d-45f1-84c2-fc6da25cd2d7)
+
+sonarqube credentials
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/1504417b-6bec-4e60-a323-b902809979ab)
+
+
+
+
+
+
+
 
 
 
