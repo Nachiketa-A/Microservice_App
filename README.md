@@ -293,6 +293,17 @@ GGo to jenkins -> new item ->enter the name -> select pipeline-> click ok
 
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/d764b10a-5696-43b1-835d-0136fb4e6ded)
 
+Groovy scripting
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/3897850b-b068-4233-90dc-76a1a21db56d)
+
+
+For git url go to Pipeline syntax->select sample step as git:GIT -> copy git repo url and paste it there -> enerate pipeline script
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/e70a6c78-9d2d-4eee-a8b7-b82df23ac970)
+
+
+
 
 
 
