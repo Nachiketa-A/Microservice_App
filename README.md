@@ -1,13 +1,4 @@
 
-
-To check namespace
-
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/6e994428-42e2-4232-9eb6-088447054c32)
-
-To create new namespace
-
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/51af6b0d-bee2-46ee-b19b-c2890d668d47)
-
 **Creatin Service Account**
 
 Firstly create one yaml file usin command 
