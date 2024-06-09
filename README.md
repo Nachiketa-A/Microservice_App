@@ -303,6 +303,10 @@ For git url go to Pipeline syntax->select sample step as git:GIT -> copy git rep
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/e70a6c78-9d2d-4eee-a8b7-b82df23ac970)
 
 
+Build Docker Image
+
+
+
 
 
 
