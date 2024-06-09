@@ -99,15 +99,15 @@ Command to install eksctl
 
 Creation of EKS Cluster
 
-eksctl create cluster --name=my-eks924 \
-                      --region=ap-south-1 \
-                      --zones=ap-south-1a,ap-south-1b \
+eksctl create cluster --name=my-eks92 \
+                      --region=us-east-1 \
+                      --zones=us-east-1a,us-east-1b \
                       --version=1.30 \
                       --without-nodegroup
 
 
 
-![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/8d29171d-c89e-40eb-a181-19facdd34a3a)
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/ccb0417d-fda9-43fd-a89d-c808ec2fdee0)
 
 
 
@@ -181,6 +181,33 @@ To setup worker node
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/480eccc4-4523-473f-affe-fc4937cf8f32)
 
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/7ea88376-f470-41fb-9ebf-b3bd714a8988)
+
+Meanwhhile we will manage jenkins
+
+**Steps**
+
+Go to **manage Jenkins**
+
+click **Plugins**
+
+click on **Available Plugins**
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/3f4e1429-937c-4781-b105-195126bb875a)
+
+For docker Plugins
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/0cd60108-c6ec-4fcb-93ac-f91aea392a2d)
+
+For kubernetes plugins
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/238cdf38-0b7e-44f9-a78b-8d6b6bcf6820)
+
+Click **Install**
+
+
+
+
+
 
 
 
