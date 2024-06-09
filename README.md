@@ -266,6 +266,20 @@ To execute te service account code
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/aed79d1a-903f-4159-9417-112ca8cbbcb7)
 
 
+**Create role**
+
+To create role first create yaml file 
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/20ee883e-3264-4e89-8aa0-aeb94afc1791)
+
+Execute te yanl file using command:
+
+Kubectl apply-f rol.yml
+
+after execution of this command role will be created
+
+To assign the role to service account
+
 
 
 
