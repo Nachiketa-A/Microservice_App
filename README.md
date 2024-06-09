@@ -257,6 +257,18 @@ To create new namespace
 
 **Creatin Service Account**
 
+Firstly create one yaml file usin command 
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/017edfa5-9076-4246-949e-01701d24f34d)
+
+To execute te service account code
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/aed79d1a-903f-4159-9417-112ca8cbbcb7)
+
+
+
+
+
 
 
 
