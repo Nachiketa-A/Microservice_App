@@ -287,6 +287,14 @@ To create a token for service account use below yaml file
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/2796401c-6fc7-494b-9ddc-17b67186ee80)
 
 
+Pipeline creation
+
+GGo to jenkins -> new item ->enter the name -> select pipeline-> click ok
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/d764b10a-5696-43b1-835d-0136fb4e6ded)
+
+
+
 
 
 
