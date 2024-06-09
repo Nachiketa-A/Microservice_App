@@ -30,6 +30,83 @@ The application consists of 11 separate services (or microservices), each writte
 Each of these services is like a small, independent piece of the overall application. They work together to create the full shopping experience for users but can be developed, deployed, and scaled independently.
 
 
+To set up an EKS (Amazon Elastic Kubernetes Service) account without using the root account, it's indeed a best practice to create a new IAM (Identity and Access Management) user with limited access. Here's a step-by-step guide to creating an IAM user and attaching the necessary policies, including creating a custom policy.
+
+# 1 First Create a user in AWS IAM with any name
+
+### Step-by-Step Guide
+
+1. **Log in to the AWS Management Console with Root Account**
+   - Use your root account to log in to the AWS Management Console.
+
+2. **Navigate to IAM**
+   - In the AWS Management Console, search for and select **IAM** (Identity and Access Management).
+
+3. **Create a New IAM User**
+   - Go to **Users** in the IAM dashboard.
+   - Click on **Add user**.
+
+4. **Configure User Details**
+   - Enter the user name (e.g., `eks-admin`).
+   - Select **AWS Management Console access**.
+   - Choose **Custom password**, set the initial password, and optionally require the user to create a new password at the next sign-in.
+
+5. **Set Permissions**
+   - Select **Attach policies directly**.
+   - Attach the following AWS managed policies:
+     - `AmazonEC2FullAccess`
+     - `AmazonEKS_CNI_Policy`
+     - `AmazonEKSClusterPolicy`
+     - `AmazonEKSWorkerNodePolicy`
+     - `AWSCloudFormationFullAccess`
+     - `IAMFullAccess`
+
+6. **Create and Attach a Custom Policy**
+   - Click on **Create policy**.
+   - Select the **JSON** tab and enter the following policy content:
+     ```json
+     {
+         "Version": "2012-10-17",
+         "Statement": [
+             {
+                 "Sid": "VisualEditor0",
+                 "Effect": "Allow",
+                 "Action": "eks:*",
+                 "Resource": "*"
+             }
+         ]
+     }
+     ```
+   - Click on **Next: Tags** (you can skip adding tags).
+   - Click on **Next: Review**.
+   - Provide a name for the policy (e.g., `EKSPolicy`).
+   - Click on **Create policy**.
+
+7. **Attach the Custom Policy to the User**
+   - Go back to the **Users** section.
+   - Select the user you created (e.g., `eks-admin`).
+   - Go to the **Permissions** tab.
+   - Click on **Add permissions**.
+   - Choose **Attach policies directly**.
+   - Search for and select the custom policy you created (`EKSPolicy`).
+   - Click on **Next: Review**.
+   - Click on **Add permissions**.
+
+8. **Review and Finish**
+   - Ensure the user has the following policies attached:
+     - `AmazonEC2FullAccess`
+     - `AmazonEKS_CNI_Policy`
+     - `AmazonEKSClusterPolicy`
+     - `AmazonEKSWorkerNodePolicy`
+     - `AWSCloudFormationFullAccess`
+     - `IAMFullAccess`
+     - `EKSPolicy`
+
+9. **Sign in with the New User**
+   - Provide the new user with their sign-in URL, username, and password.
+   - The new user can now sign in to the AWS Management Console with the appropriate permissions to manage EKS.
+
+By following these steps, you've created a new IAM user with limited access necessary to manage EKS resources, adhering to AWS best practices for security and access control.
 # Connecting Instance with MobaXterm
 
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/4881d1bf-e259-4d2f-8465-1ee496e67a1d)
