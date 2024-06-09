@@ -206,6 +206,32 @@ For kubernetes plugins
 
 Click **Install**
 
+For conifuration of Jenkins
+
+Go to **Manage Jenkins**
+
+Click on **Tools**
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/ac8543a0-43ff-46d0-9cb8-ed709b976c69)
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/89de3cc7-9b21-4bda-949d-05a3adaed0c4)
+
+Click on **Apply**
+
+To configure Sonarqube server
+
+Go to Sonarqube -> Administartion -> security -> users -> token
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/a79251d0-f192-402d-81a3-014e0fcde940)
+
+
+
+
+
+
+
+
+
 
 
 
