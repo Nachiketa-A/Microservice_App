@@ -45,6 +45,28 @@ command to create kubernetes token
 ![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/b9c93e21-5f95-4ff8-a68f-9d416439ff13)
 
 
+configuration for k8-token
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/e537b330-f461-432c-a4d8-10cbc88bb11a)
+
+After running pipeline we need to check all the pods are running are not for that
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/ab974bed-bb26-4aff-b73e-e2c333c28794)
+
+Here we can see all the pods are running
+
+To check for services
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/93ebf063-f662-4815-8058-1f754aef184b)
+
+
+
+a6c757886c0b04894a1d0cb050e41ce8-1761995302.us-east-1.elb.amazonaws.com 
+
+
+
+
+
 
 
 
