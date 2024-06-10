@@ -40,6 +40,11 @@ For git url go to Pipeline syntax->select sample step as git:GIT -> copy git rep
 Build Docker Image
 
 
+command to create kubernetes token
+
+![image](https://github.com/Nachiketa-A/Microservice_App/assets/157089767/b9c93e21-5f95-4ff8-a68f-9d416439ff13)
+
+
 
 
 
